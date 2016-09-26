@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05FAA91E-0F84-433C-9E79-E162A9792E01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F88B8EAF-C4EF-4A44-8ED3-F3F36E1F0C8F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dotNetAngularWebAPI", "src\dotNetAngularWebAPI\dotNetAngularWebAPI.xproj", "{8653640C-9E81-4689-BCF7-EE336FB38D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8653640C-9E81-4689-BCF7-EE336FB38D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8653640C-9E81-4689-BCF7-EE336FB38D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8653640C-9E81-4689-BCF7-EE336FB38D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8653640C-9E81-4689-BCF7-EE336FB38D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8653640C-9E81-4689-BCF7-EE336FB38D2F} = {05FAA91E-0F84-433C-9E79-E162A9792E01}
+	EndGlobalSection
+EndGlobal
